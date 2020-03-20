@@ -37,6 +37,7 @@
   "scripts": {
     "start": "concurrently \"rollup -c -w\" \"serve docs\"",
     "build": "rollup -c",
+    "prepack": "npm install && rollup -c",
     "test": "ava"
   },
   "ava": {
